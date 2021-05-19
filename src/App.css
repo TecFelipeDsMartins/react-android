@@ -2,9 +2,13 @@
   text-align: center;
 }
 
+h1{
+ font-size:1.5rem
+ }
+
 .App-logo {
-  height:240px;
-  width: 240px;
+  height:150px;
+  width: 150px;
   background-color: orange;
   border-radius:50%;
 
@@ -29,6 +33,7 @@
 
 .App-link {
   color: #61dafb;
+  font-size: 1rem;
 }
 
 @keyframes App-logo-spin {
