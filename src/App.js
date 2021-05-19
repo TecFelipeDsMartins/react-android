@@ -1,12 +1,12 @@
-import logoPodCast from './logoPodCast.png';
+import logo from './logo.jpg';
 import './App.css';
 
-const url ='https://yt3.ggpht.com/_rY7SFAnLoqJdr8582bQDh1Uf1WWXMUY51TtmI7QbxuwJDX7cra5q7ZBGvR7cR1v7HxVD6Lz=s100-c-k-c0x00ffffff-no-rj'
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img href={url} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
