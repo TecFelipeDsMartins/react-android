@@ -26,7 +26,7 @@ function App() {
 	<h1>{result}</h1>  
         <img onClick={handleClick}  src={logo} className="App-logo" alt="logo" />
 
-        <p>Front end Developer</p>
+        <p onClick={handleClick2}  >Front end Developer</p>
         <a
           className="App-link"
           href="https://github.com/TecFelipeDsMartins"
